@@ -1,0 +1,1 @@
+java -jar dspl-archetype-0.0.1-SNAPSHOT.jar
