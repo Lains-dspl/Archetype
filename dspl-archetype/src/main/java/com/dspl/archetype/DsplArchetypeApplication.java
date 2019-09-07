@@ -9,9 +9,9 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 @SpringBootApplication
 @EnableEurekaClient
-@ComponentScan(basePackages = { "com.dspl.app.core.*" })
-@EnableMongoRepositories(basePackages = { "com.dspl.app.core.*" })
-@EntityScan(basePackages = { "com.dspl.app.core.*" })
+@ComponentScan(basePackages = { "com.dspl.app.core.*", "com.dspl.contentmanagement.*" })
+@EnableMongoRepositories(basePackages = { "com.dspl.app.core.*", "com.dspl.contentmanagement.*" })
+@EntityScan(basePackages = { "com.dspl.app.core.*", "com.dspl.contentmanagement.*" })
 public class DsplArchetypeApplication {
 
 	public static void main(String[] args) {
