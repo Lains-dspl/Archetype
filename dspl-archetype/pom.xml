@@ -96,7 +96,7 @@
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.9</version>
 				<configuration>
-					<repository>${docker.image.prefix}/archetype</repository>
+					<repository>lainsdspl/archetype</repository>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
 			</plugin>
